@@ -1,0 +1,54 @@
+.tudo {
+	display: flex;
+	flex-direction: column;
+	max-width: 425px;
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+	min-height: 100vh;
+}
+.menu a:visited, .menu a:link {
+	text-decoration: none;
+	color: white;
+}
+.listaMenu {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+}
+.listaItem {
+	margin: 1em;
+}
+.programa {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	flex-grow: 1;
+	border-top: 0.2px solid white;
+}
+.titulo {
+	font-size: 32px;
+	margin: 1em;
+}
+.rodape {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border-top: 0.2px solid white;	
+}
+.rodapeTexto {
+	margin: 1em 0;
+}
+#segredo {
+	width: 50%;
+	height: 25px;
+	margin: 10px 0;
+}
+.fotoFooter {
+	width: 75px;
+	height: 75px;
+	margin: 1em 0;
+}

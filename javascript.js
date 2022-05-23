@@ -6,7 +6,7 @@ function verifica() {
 		alert("Você Acertou!");
 		segredo = Math.round(Math.random() * 10);
 	} else {
-		alert("Você Errou!");				
+		alert("Você Errou!");
 	}
 	input.focus();
 	input.value = "";

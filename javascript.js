@@ -10,5 +10,11 @@ function verifica() {
 	input.focus();
 	input.value = "";
 }
+input.addEventListener("keypress", function(event) {
+	if (event.key === "Enter") {
+		event.preventDefault();
+		document.getElementById("myBtn").click();
+	}
+}
 var button = document.querySelector("button");
 button.onclick = verifica;
